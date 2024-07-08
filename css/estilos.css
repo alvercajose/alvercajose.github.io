@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.caja {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+#imagen{
+    display: flex; /* Usa flexbox para alinear contenido */
+    justify-content: flex-end; /* Alinea contenido a la derecha */
+    align-items: center; /* Centra verticalmente los elementos */   
+}
+
+img{
+    clip-path: circle(40%);
+    width: auto;
+    height: 200px;
+}
+
+
+
+/*sections*/
+.info, .experiencia, .educacion {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.info h2, .experiencia h2, .educacion h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
